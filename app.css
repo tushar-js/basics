@@ -1,0 +1,12 @@
+body {
+    margin: unset;
+}
+
+header {
+    height: 50px;
+    background-color: cadetblue;
+    font-size: 2rem;
+    margin: 0px;
+    padding: 8px;
+    color: whitesmoke;
+}
