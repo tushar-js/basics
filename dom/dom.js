@@ -1,7 +1,10 @@
 const body = document.body;
 const main = document.createElement('main');
-const form = document.createElement('form');
 body.append(main);
+
+const form = document.createElement('form');
+form.setAttribute('action', 'submit.html');
+form.setAttribute('method', 'GET')
 main.append(form);
 
 const USERNAME = 'username';
